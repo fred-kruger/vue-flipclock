@@ -52,7 +52,7 @@ export default {
     };
   },
   created() {
-    this.$nextTick(() => {
+    this.$nextTick(function() {
       this.init(this.options);
     });
   },
